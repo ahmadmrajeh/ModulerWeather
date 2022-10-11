@@ -7,7 +7,7 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import com.example.datascourcesmodule.database.WeatherDatabase
+import com.example.datascourcesmodule.database_room.WeatherDatabase
 import com.example.datascourcesmodule.util.WEATHER_DB
 import javax.inject.Singleton
 

@@ -1,8 +1,8 @@
 package com.example.weathersooq
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI.setupWithNavController
@@ -18,17 +18,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
 
-
        binding.bottomNavigation.visibility= View.INVISIBLE
 
         setContentView(binding.root)
 
-
         navController= Navigation.findNavController(this,R.id.fragment)
         setupWithNavController(binding.bottomNavigation,navController)
          binding.bottomNavigation.visibility= View.INVISIBLE
-
-
 
 
     }

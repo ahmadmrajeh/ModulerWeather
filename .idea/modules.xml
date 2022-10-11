@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weather_sooq.iml" filepath="$PROJECT_DIR$/.idea/modules/weather_sooq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/weather_sooq.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/weather_sooq.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/weather_sooq.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/weather_sooq.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/weather_sooq.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/weather_sooq.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/weather_sooq.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/weather_sooq.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dataScourcesModule/weather_sooq.dataScourcesModule.iml" filepath="$PROJECT_DIR$/.idea/modules/dataScourcesModule/weather_sooq.dataScourcesModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dataScourcesModule/weather_sooq.dataScourcesModule.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/dataScourcesModule/weather_sooq.dataScourcesModule.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dataScourcesModule/weather_sooq.dataScourcesModule.main.iml" filepath="$PROJECT_DIR$/.idea/modules/dataScourcesModule/weather_sooq.dataScourcesModule.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dataScourcesModule/weather_sooq.dataScourcesModule.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/dataScourcesModule/weather_sooq.dataScourcesModule.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modelsModule/weather_sooq.modelsModule.iml" filepath="$PROJECT_DIR$/.idea/modules/modelsModule/weather_sooq.modelsModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modelsModule/weather_sooq.modelsModule.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/modelsModule/weather_sooq.modelsModule.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modelsModule/weather_sooq.modelsModule.main.iml" filepath="$PROJECT_DIR$/.idea/modules/modelsModule/weather_sooq.modelsModule.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modelsModule/weather_sooq.modelsModule.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/modelsModule/weather_sooq.modelsModule.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -2,24 +2,21 @@ package com.example.weathersooq.ui
 
 
 import android.graphics.Color
- import android.os.Bundle
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.example.datascourcesmodule.util.NetworkResult
+import com.example.modelsmodule.data.WeatherModel
 import com.example.weathersooq.R
 import com.example.weathersooq.databinding.FragmentHomeBinding
 import com.example.weathersooq.ui.viewModels.MainViewModel
-import com.example.datascourcesmodule.util.NetworkResult
 import com.google.android.material.bottomnavigation.BottomNavigationView
-
-
-import android.widget.Toast
-import com.example.modelsmodule.data.WeatherModel
-
-
 import dagger.hilt.android.AndroidEntryPoint
+
 
 
 @AndroidEntryPoint
@@ -29,9 +26,10 @@ class HomeFragment : Fragment() {
         fun getInstance() = HomeFragment()
     }
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mainViewModel = ViewModelProvider(requireActivity())  [MainViewModel::class.java]
+        mainViewModel = ViewModelProvider(requireActivity()) [MainViewModel::class.java]
 
     }
 
@@ -48,18 +46,17 @@ class HomeFragment : Fragment() {
         navBar.visibility = View.VISIBLE
         binding.lifecycleOwner = this
         mainViewModel.readTownWeather(getString(R.string.Amman))
+
         mainViewModel.readTownWeather(getString(R.string.Irbid))
 
-   binding.button2.setOnClickListener {
-    val city =   binding.search.text.toString()
-       handleSearch(city)
+        binding.button2.setOnClickListener {
+        val city =   binding.search.text.toString()
+        handleSearch(city)
 
    }
 
         return binding.root
     }
-
-
 
     private fun handleSearch(city: String) {
         if (city.isNotEmpty()) {

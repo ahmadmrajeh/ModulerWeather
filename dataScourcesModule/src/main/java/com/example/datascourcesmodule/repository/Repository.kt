@@ -1,7 +1,7 @@
 package com.example.datascourcesmodule.repository
  import com.example.modelsmodule.data.WeatherModel
- import com.example.datascourcesmodule.database.WeatherDAO
-import com.example.datascourcesmodule.database.WeatherEntity
+ import com.example.datascourcesmodule.database_room.WeatherDAO
+import com.example.datascourcesmodule.database_room.WeatherEntity
 import com.example.datascourcesmodule.retrofit.ApiRequests
 import dagger.hilt.android.scopes.ActivityRetainedScoped
 
